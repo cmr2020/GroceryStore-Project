@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Application.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Application", "ShopManagement.Application\ShopManagement.Application.csproj", "{9138F673-0F6E-48ED-AEB5-CD14547398CA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Infrastructure", "SM.Infrastructure", "{D1DA14D5-F43A-4CC0-82FB-2542CB3FAEA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Infrastructure.EFCore", "ShopManagement.Infrastructure.EFCore\ShopManagement.Infrastructure.EFCore.csproj", "{3E32D9CE-44E7-4178-A504-909BC934C5FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{9138F673-0F6E-48ED-AEB5-CD14547398CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9138F673-0F6E-48ED-AEB5-CD14547398CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9138F673-0F6E-48ED-AEB5-CD14547398CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E32D9CE-44E7-4178-A504-909BC934C5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E32D9CE-44E7-4178-A504-909BC934C5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E32D9CE-44E7-4178-A504-909BC934C5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E32D9CE-44E7-4178-A504-909BC934C5FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{EA0FFCAD-96FE-4160-A47E-EA6695108CEF} = {D994B2DE-620A-4257-84C4-D5253DDE859D}
 		{E3C840F7-7CA5-45BB-8A08-D3CC4F074EA1} = {EA0FFCAD-96FE-4160-A47E-EA6695108CEF}
 		{9138F673-0F6E-48ED-AEB5-CD14547398CA} = {EA0FFCAD-96FE-4160-A47E-EA6695108CEF}
+		{D1DA14D5-F43A-4CC0-82FB-2542CB3FAEA8} = {D994B2DE-620A-4257-84C4-D5253DDE859D}
+		{3E32D9CE-44E7-4178-A504-909BC934C5FD} = {D1DA14D5-F43A-4CC0-82FB-2542CB3FAEA8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {573D966E-ED47-4692-8B82-834EC6ABAB37}
