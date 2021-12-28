@@ -1,0 +1,11 @@
+E:\GroceryStore\GroceryStore\0_Framework\bin\Debug\net5.0\0_Framework.deps.json
+E:\GroceryStore\GroceryStore\0_Framework\bin\Debug\net5.0\0_Framework.dll
+E:\GroceryStore\GroceryStore\0_Framework\bin\Debug\net5.0\ref\0_Framework.dll
+E:\GroceryStore\GroceryStore\0_Framework\bin\Debug\net5.0\0_Framework.pdb
+E:\GroceryStore\GroceryStore\0_Framework\obj\Debug\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+E:\GroceryStore\GroceryStore\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfoInputs.cache
+E:\GroceryStore\GroceryStore\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfo.cs
+E:\GroceryStore\GroceryStore\0_Framework\obj\Debug\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+E:\GroceryStore\GroceryStore\0_Framework\obj\Debug\net5.0\0_Framework.dll
+E:\GroceryStore\GroceryStore\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
+E:\GroceryStore\GroceryStore\0_Framework\obj\Debug\net5.0\0_Framework.pdb
