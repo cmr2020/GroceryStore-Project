@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "ShopManagement.Application.Contracts/1.0.0": {
         "dependencies": {
-          "ShopManagement.Domain": "1.0.0"
+          "0_Framework": "1.0.0"
         },
         "runtime": {
           "ShopManagement.Application.Contracts.dll": {}
@@ -17,14 +17,6 @@
       "0_Framework/1.0.0": {
         "runtime": {
           "0_Framework.dll": {}
-        }
-      },
-      "ShopManagement.Domain/1.0.0": {
-        "dependencies": {
-          "0_Framework": "1.0.0"
-        },
-        "runtime": {
-          "ShopManagement.Domain.dll": {}
         }
       }
     }
@@ -36,11 +28,6 @@
       "sha512": ""
     },
     "0_Framework/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ShopManagement.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
