@@ -1,4 +1,5 @@
-﻿using ShopManagement.Application.Contracts.ProductCategory;
+﻿using _0_Framework.Infrastructure;
+using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 using System;
 using System.Collections.Generic;
@@ -8,34 +9,15 @@ using System.Linq.Expressions;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
-    public class ProductCategoryRepository : IProductCategoryRepository
+    public class ProductCategoryRepository :RepositoryBase<long,ProductCategory>,IProductCategoryRepository
     {
         private readonly ShopContext _context;
-        public ProductCategoryRepository(ShopContext context)
+        public ProductCategoryRepository(ShopContext context): base(context)
         {
             _context = context;
         }
 
-        public void Create(ProductCategory entity)
-        {
-            _context.ProductCategories.Add(entity);
-        }
-
-        public bool Exists(Expression<Func<ProductCategory, bool>> expression)
-        {
-            return _context.ProductCategories.Any(expression);
-        }
-
-        public ProductCategory Get(long id)
-        {
-            return _context.ProductCategories.Find(id);
-        }
-
-        public List<ProductCategory> GetAll()
-        {
-            return _context.ProductCategories.ToList();
-        }
-
+        
         public EditProductCategory GetDetails(long id)
         {
             return _context.ProductCategories.Select(x => new EditProductCategory()
@@ -53,11 +35,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             }).FirstOrDefault(x=> x.Id==id);
         }
 
-        public void SaveChanges()
-        {
-            _context.SaveChanges();
-        }
-
+       
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {
             var query = _context.ProductCategories.Select(x => new ProductCategoryViewModel
