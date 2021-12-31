@@ -161,3 +161,4 @@ E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Create.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Edit.cshtml.g.cs
