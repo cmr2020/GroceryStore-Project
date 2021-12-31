@@ -165,3 +165,7 @@ E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntime
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Create.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Edit.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Index.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

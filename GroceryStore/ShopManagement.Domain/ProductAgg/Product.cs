@@ -42,6 +42,7 @@ namespace ShopManagement.Domain.ProductAgg
             Slug = slug;
             Keywords = keywords;
             MetaDescription = metaDescription;
+            UnitPrice = unitPrice;
             IsInStock = true;
         }
 
@@ -63,6 +64,7 @@ namespace ShopManagement.Domain.ProductAgg
             Slug = slug;
             Keywords = keywords;
             MetaDescription = metaDescription;
+            UnitPrice = unitPrice;
         }
 
 

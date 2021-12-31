@@ -11,11 +11,11 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
     {
         public ProductSearchModel SearchModel;
         public List<ProductViewModel> Products;
-        public SelectList ProductCategories; 
+        public SelectList ProductCategories;
 
         private readonly IProductApplication _productApplication;
         private readonly IProductCategoryApplication _productCategoryApplication;
-        public IndexModel(IProductApplication productApplication,IProductCategoryApplication productCategoryApplication)
+        public IndexModel(IProductApplication productApplication, IProductCategoryApplication productCategoryApplication)
         {
             _productApplication = productApplication;
             _productCategoryApplication = productCategoryApplication;
@@ -23,13 +23,18 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
 
         public void OnGet(ProductSearchModel searchModel)
         {
-            ProductCategories = new SelectList(_productCategoryApplication.GetProductCategories(),"Id","Name");
+            ProductCategories = new SelectList(_productCategoryApplication.GetProductCategories(), "Id", "Name");
             Products = _productApplication.Search(searchModel);
         }
 
         public IActionResult OnGetCreate()
         {
-            return Partial("./Create", new CreateProduct());
+            var command = new CreateProduct
+            {
+                Categories = _productCategoryApplication.GetProductCategories()
+            };
+
+            return Partial("./Create", command);
         }
 
         public JsonResult OnPostCreate(CreateProduct command)
@@ -41,8 +46,9 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
 
         public IActionResult OnGetEdit(long id)
         {
-            var productCategory = _productApplication.GetDetails(id);
-            return Partial("Edit", productCategory);
+            var product = _productApplication.GetDetails(id);
+            product.Categories = _productCategoryApplication.GetProductCategories();
+            return Partial("Edit", product);
         }
 
         public JsonResult OnPostEdit(EditProduct command)
