@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace _0_Framework.Infrastructure
 {
-    public class RepositoryBase<TKey, T> : IRepository<TKey, T> where T :class
+    public class RepositoryBase<TKey, T> : IRepository<TKey, T> where T : class
     {
         private readonly DbContext _context;
 
@@ -17,7 +17,6 @@ namespace _0_Framework.Infrastructure
         {
             _context = context;
         }
-
 
         public void Create(T entity)
         {

@@ -1,3 +1,4 @@
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\appsettings.Development.json
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\appsettings.json
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\ServiceHost.exe
@@ -20,6 +21,7 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.CodeAnalysis
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.Identity.Client.dll
@@ -107,7 +109,6 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\runtimes\win-arm64\nat
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
@@ -141,6 +142,8 @@ E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.RazorCoreG
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Index.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_AdminLayout.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Create.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Edit.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Index.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\_ViewImports.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\_ViewStart.cshtml.g.cs
@@ -159,6 +162,3 @@ E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.dll
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
-E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Create.cshtml.g.cs
-E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Edit.cshtml.g.cs
