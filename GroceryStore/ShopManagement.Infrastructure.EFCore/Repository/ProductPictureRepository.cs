@@ -42,6 +42,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                     CreationDate=x.CreationDate.ToString(),
                     Picture=x.Picture,
                     ProductId=x.ProductId,
+                    IsRemoved=x.IsRemoved
                 });
 
             if (searchModel.ProductId != 0)
