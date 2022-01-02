@@ -21,3 +21,5 @@ E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopM
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\01_RemalQuery.dll
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\01_RemalQuery.pdb

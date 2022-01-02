@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <Content Remove="Areas\Administration\Index.cshtml" />
+    <Content Remove="wwwroot\Theme\assets\fonts\IranianSans.svg" />
+    <Content Remove="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -187,6 +189,8 @@
     <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.svg" />
     <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.woff2" />
     <None Include="wwwroot\Theme\assets\fonts\ionicons28b5.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\IranianSans.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
     <None Include="wwwroot\Theme\assets\js\active.js" />
     <None Include="wwwroot\Theme\assets\js\ajax-mail.js" />
     <None Include="wwwroot\Theme\assets\js\vendors.js" />

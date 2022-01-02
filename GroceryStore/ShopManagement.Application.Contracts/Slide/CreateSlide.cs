@@ -20,6 +20,7 @@
 
         
         public string BtnText { get; set; }
+        public string Link { get; set; }
     }
 
 
