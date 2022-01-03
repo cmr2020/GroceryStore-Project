@@ -1,0 +1,15 @@
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.AssemblyReference.cache
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfo.cs
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CoreCompileInputs.cache
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.deps.json
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\bin\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.dll
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CopyComplete
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\obj\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
+E:\GroceryStore\GroceryStore\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.pdb
