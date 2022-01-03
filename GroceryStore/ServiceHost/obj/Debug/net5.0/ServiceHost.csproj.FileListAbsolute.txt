@@ -186,3 +186,6 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\DiscountManagement.App
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Create.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Edit.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Index.cshtml.g.cs

@@ -30,7 +30,7 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 DiscountRate = x.DiscountRate,
                 StartDate = x.StartDate.ToString(),
                 EndDate = x.EndDate.ToString(),
-                Reason = x.Reason
+                Reason = x.Reason,
             }).FirstOrDefault(x => x.Id == id);
         }
 
@@ -48,6 +48,7 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 StartDateGr = x.StartDate,
                 ProductId = x.ProductId,
                 Reason = x.Reason,
+                CreationDate=x.CreationDate.ToFarsi()
             });
 
             if (searchModel.ProductId > 0)
