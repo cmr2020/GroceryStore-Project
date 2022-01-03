@@ -2,14 +2,6 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\01_RemalQuery.deps.j
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\ref\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\01_RemalQuery.pdb
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj.AssemblyReference.cache
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.GeneratedMSBuildEditorConfig.editorconfig
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.AssemblyInfoInputs.cache
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.AssemblyInfo.cs
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj.CoreCompileInputs.cache
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.dll
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\ref\01_RemalQuery.dll
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\0_Framework.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\ShopManagement.Domain.dll
@@ -18,3 +10,11 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\ShopManagement.Infra
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\0_Framework.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\ShopManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj.AssemblyReference.cache
+E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.GeneratedMSBuildEditorConfig.editorconfig
+E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.AssemblyInfoInputs.cache
+E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.AssemblyInfo.cs
+E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj.CoreCompileInputs.cache
+E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\ref\01_RemalQuery.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.pdb

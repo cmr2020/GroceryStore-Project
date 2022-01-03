@@ -2,11 +2,13 @@ E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopM
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ref\ShopManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.pdb
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\0_Framework.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\01_RemalQuery.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
@@ -20,5 +22,3 @@ E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopM
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\01_RemalQuery.dll
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\01_RemalQuery.pdb
