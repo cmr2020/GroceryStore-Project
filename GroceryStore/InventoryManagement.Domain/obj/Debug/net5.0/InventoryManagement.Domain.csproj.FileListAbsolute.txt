@@ -13,3 +13,5 @@ E:\GroceryStore\GroceryStore\InventoryManagement.Domain\obj\Debug\net5.0\Invento
 E:\GroceryStore\GroceryStore\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Domain\obj\Debug\net5.0\ref\InventoryManagement.Domain.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\GroceryStore\GroceryStore\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb

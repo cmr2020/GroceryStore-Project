@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ndAfC2A9MkaJxk8pXMwzMBJc9b/4hUWa8fj74nJV9tQZjKaJco3vD0yvTAKHeZUU3DnRL7fKe2mDpyugztX5tQ==",
+  "dgSpecHash": "WTOC9NPn6eiXmkca5xueOIdWKbFHY905UTZ+etlUEaeEzQwyulEkFcxSkbzk/zXTL5GDifTmNkQVcL4Ky/fP2Q==",
   "success": true,
   "projectFilePath": "E:\\GroceryStore\\GroceryStore\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
   "expectedPackageFiles": [
