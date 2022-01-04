@@ -201,3 +201,5 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\InventoryManagement.In
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.pdb
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb

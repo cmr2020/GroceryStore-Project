@@ -1,4 +1,5 @@
-﻿using InventoryManagement.Application.Contract.Inventory;
+﻿using InventoryManagement.Application;
+using InventoryManagement.Application.Contract.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 using InventoryMangement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore.Repository;
@@ -19,7 +20,7 @@ namespace InventoryManagement.Infrastructure.Configuration
         {
 
             services.AddTransient<IInventoryRepository, InventoryRepository>();
-
+            services.AddTransient<IInventoryApplication, InventoryApplication>();
 
             services.AddDbContext<InventoryContext>(x => x.UseSqlServer(connectionString));
         }
