@@ -203,3 +203,6 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\InventoryManagement.Do
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Create.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Edit.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Index.cshtml.g.cs

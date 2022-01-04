@@ -90,6 +90,9 @@
             "projectReferences": {
               "E:\\GroceryStore\\GroceryStore\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "E:\\GroceryStore\\GroceryStore\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\GroceryStore\\GroceryStore\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\GroceryStore\\GroceryStore\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }

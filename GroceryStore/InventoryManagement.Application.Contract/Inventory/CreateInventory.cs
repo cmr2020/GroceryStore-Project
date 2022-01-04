@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using ShopManagement.Application.Contracts.Product;
+using System.Collections.Generic;
 
 namespace InventoryManagement.Application.Contract.Inventory
 {
@@ -7,7 +8,7 @@ namespace InventoryManagement.Application.Contract.Inventory
         public long ProductId { get; set; }
 
         public double UnitPrice { get; set; }
-
+        public List<ProductViewModel> Products { get; set; }
     }
 
 }
