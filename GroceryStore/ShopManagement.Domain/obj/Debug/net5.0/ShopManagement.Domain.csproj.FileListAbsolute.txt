@@ -14,3 +14,4 @@ E:\GroceryStore\GroceryStore\ShopManagement.Domain\obj\Debug\net5.0\ShopManageme
 E:\GroceryStore\GroceryStore\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
