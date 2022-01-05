@@ -215,3 +215,5 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.P
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArrivals\Default.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductCategory.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Menu\Default.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Footer\Default.cshtml.g.cs
