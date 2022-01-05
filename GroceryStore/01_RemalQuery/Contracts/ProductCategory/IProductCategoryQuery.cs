@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace _01_RemalQuery.Contracts.ProductCategory
 {
     public interface IProductCategoryQuery
-    {
-       
+    {     
         List<ProductCategoryQueryModel> GetProductCategories();
+        List<ProductCategoryQueryModel> GetProductCategoriesWithProducts();
     }
 }

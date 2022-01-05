@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using _01_RemalQuery.Contracts.Product;
+using System.Collections.Generic;
 
 
 namespace _01_RemalQuery.Contracts.ProductCategory
@@ -10,7 +11,7 @@ namespace _01_RemalQuery.Contracts.ProductCategory
         public string Picture { get; set; }
         public string PictureAlt { get; set; }
         public string PictureTitle { get; set; }
-        public string Slug { get; set; }
-           
+        public string Slug { get; set; }     
+        public List<ProductQueryModel> Products { get; set; }
     }
 }
