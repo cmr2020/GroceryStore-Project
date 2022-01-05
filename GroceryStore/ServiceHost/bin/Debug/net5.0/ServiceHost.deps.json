@@ -1824,6 +1824,7 @@
       },
       "01_RemalQuery/1.0.0": {
         "dependencies": {
+          "DiscountManagement.Infrastructure.EFCore": "1.0.0",
           "InventoryMangement.Infrastructure.EFCore": "1.0.0",
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },

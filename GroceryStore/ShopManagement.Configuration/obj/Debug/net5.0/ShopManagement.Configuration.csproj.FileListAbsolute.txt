@@ -29,3 +29,9 @@ E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\Inven
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.pdb
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.dll
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
