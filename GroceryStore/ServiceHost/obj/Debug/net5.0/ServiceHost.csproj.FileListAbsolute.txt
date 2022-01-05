@@ -213,3 +213,4 @@ E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Com
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArrivals\Default.cshtml.g.cs

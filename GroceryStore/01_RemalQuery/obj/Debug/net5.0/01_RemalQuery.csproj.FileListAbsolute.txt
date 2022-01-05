@@ -24,7 +24,6 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\InventoryMangement.I
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\InventoryManagement.Domain.pdb
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj.CopyComplete
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Domain.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
