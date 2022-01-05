@@ -210,3 +210,6 @@ E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administra
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Reduce.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\OperationLog.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategoryWithProduct\Default.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
