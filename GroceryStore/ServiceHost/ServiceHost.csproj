@@ -198,4 +198,8 @@
     <None Include="wwwroot\Theme\assets\js\vendors.js" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\ProductPictures\Sliders\" />
+  </ItemGroup>
+
 </Project>
