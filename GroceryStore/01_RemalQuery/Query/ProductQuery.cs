@@ -3,7 +3,6 @@ using _01_RemalQuery.Contracts.Product;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Infrastructure.EFCore;
 using System;
 using System.Collections.Generic;
@@ -66,6 +65,58 @@ namespace _01_RemalQuery.Query
             }
 
             return products;
+        }
+
+        public ProductQueryModel GetProductDetails(string slug)
+        {
+            var inventory = _inventoryContext.Inventory.Select(x => new { x.ProductId, x.UnitPrice, x.InStock }).ToList();
+
+            var discounts = _discountContext.CustomerDiscounts
+                .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+                .Select(x => new { x.DiscountRate, x.ProductId, x.EndDate }).ToList();
+
+            var product = _context.Products
+                .Include(x => x.Category)
+                .Include(x => x.ProductPictures)
+                .Select(x => new ProductQueryModel
+                {
+                    Id = x.ID,
+                    Category = x.Category.Name,
+                    Name = x.Name,
+                    Picture = x.Picture,
+                    PictureAlt = x.PictureAlt,
+                    PictureTitle = x.PictureTitle,
+                    Slug = x.Slug,
+                    CategorySlug = x.Category.Slug,
+                    Code = x.Code,
+                    Description = x.Description,
+                    Keywords = x.Keywords,
+                    MetaDescription = x.MetaDescription,
+                    ShortDescription = x.ShortDescription,                  
+                }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
+
+            if (product == null)
+                return new ProductQueryModel();
+
+            var productInventory = inventory.FirstOrDefault(x => x.ProductId == product.Id);
+            if (productInventory != null)
+            {
+                product.IsInStock = productInventory.InStock;
+                var price = productInventory.UnitPrice;
+                product.Price = price.ToMoney();
+                product.DoublePrice = price;
+                var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
+                if (discount != null)
+                {
+                    var discountRate = discount.DiscountRate;
+                    product.DiscountRate = discountRate;
+                    product.DiscountExpireDate = discount.EndDate.ToDiscountFormat();
+                    product.HasDiscount = discountRate > 0;
+                    var discountAmount = Math.Round((price * discountRate) / 100);
+                    product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                }
+            }
+            return product;
         }
 
         public List<ProductQueryModel> Search(string value)

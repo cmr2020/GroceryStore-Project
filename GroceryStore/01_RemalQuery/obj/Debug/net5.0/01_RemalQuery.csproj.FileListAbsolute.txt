@@ -30,4 +30,3 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.I
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj.CopyComplete

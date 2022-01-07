@@ -13,7 +13,6 @@ E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\In
 E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfoInputs.cache
 E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfo.cs
 E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
-E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CopyComplete
 E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.pdb
