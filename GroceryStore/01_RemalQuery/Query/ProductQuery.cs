@@ -3,6 +3,7 @@ using _01_RemalQuery.Contracts.Product;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 using System;
@@ -78,7 +79,8 @@ namespace _01_RemalQuery.Query
 
             var product = _context.Products
                 .Include(x => x.Category)
-                .Include(x => x.ProductPictures)
+                .Include(x => x.Comments)
+                .Include(x => x.ProductPictures)              
                 .Select(x => new ProductQueryModel
                 {
                     Id = x.ID,
@@ -94,6 +96,7 @@ namespace _01_RemalQuery.Query
                     Keywords = x.Keywords,
                     MetaDescription = x.MetaDescription,
                     ShortDescription = x.ShortDescription,
+                    Comments=MapComments(x.Comments),
                     Pictures = MapProductPictures(x.ProductPictures)
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
@@ -119,6 +122,19 @@ namespace _01_RemalQuery.Query
                 }
             }
             return product;
+        }
+
+        private static List<CommentQueryModel> MapComments(List<Comment> comments)
+        {
+            return comments
+                .Where(x => !x.IsCanceled)
+                .Where(x => x.IsConfirmed)
+                .Select(x => new CommentQueryModel 
+                {
+                    Id=x.ID,
+                    Message=x.Message,
+                    Name=x.Name
+                }).OrderByDescending(x=> x.Id).ToList();
         }
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)

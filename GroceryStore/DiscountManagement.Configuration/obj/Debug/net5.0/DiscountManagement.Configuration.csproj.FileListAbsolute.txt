@@ -25,8 +25,8 @@ E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\D
 E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfoInputs.cache
 E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfo.cs
 E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.CoreCompileInputs.cache
+E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.CopyComplete
 E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\ref\DiscountManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.pdb
 E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.genruntimeconfig.cache
-E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.CopyComplete
