@@ -29,3 +29,4 @@ E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\ob
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.genruntimeconfig.cache
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.pdb
+E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.CopyComplete

@@ -16,3 +16,4 @@ E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\ref\Disc
 E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.pdb
 E:\GroceryStore\GroceryStore\DiscountManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\GroceryStore\GroceryStore\DiscountManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.CopyComplete
