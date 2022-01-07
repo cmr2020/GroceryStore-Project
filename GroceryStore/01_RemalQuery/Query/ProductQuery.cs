@@ -3,6 +3,7 @@ using _01_RemalQuery.Contracts.Product;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 using System;
 using System.Collections.Generic;
@@ -92,7 +93,8 @@ namespace _01_RemalQuery.Query
                     Description = x.Description,
                     Keywords = x.Keywords,
                     MetaDescription = x.MetaDescription,
-                    ShortDescription = x.ShortDescription,                  
+                    ShortDescription = x.ShortDescription,
+                    Pictures = MapProductPictures(x.ProductPictures)
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
             if (product == null)
@@ -117,6 +119,18 @@ namespace _01_RemalQuery.Query
                 }
             }
             return product;
+        }
+
+        private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)
+        {
+            return pictures.Select(x => new ProductPictureQueryModel
+            {
+                IsRemoved = x.IsRemoved,
+                Picture = x.Picture,
+                PictureAlt = x.PictureAlt,
+                PictureTitle = x.PictureTitle,
+                ProductId = x.ProductId
+            }).Where(x => !x.IsRemoved).ToList();
         }
 
         public List<ProductQueryModel> Search(string value)
