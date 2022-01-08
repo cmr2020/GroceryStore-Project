@@ -2,6 +2,7 @@
 using _0_Framework.Infrastructure;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Domain.ArticleAgg;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +35,11 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
                 Slug = x.Slug,
                 Title = x.Title
             }).FirstOrDefault(x => x.Id == id);
+        }
+
+        public Article GetWithCategory(long id)
+        {
+            return _context.Articles.Include(x => x.Category).FirstOrDefault(x => x.ID == id);
         }
 
         public List<ArticleViewModel> Search(ArticleSearchModel searchModel)
