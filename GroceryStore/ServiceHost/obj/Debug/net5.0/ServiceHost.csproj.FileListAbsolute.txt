@@ -231,3 +231,6 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\BlogManagement.Applica
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\BlogManagement.Domain.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\ArticleCategories\Create.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\ArticleCategories\Edit.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\ArticleCategories\Index.cshtml.g.cs
