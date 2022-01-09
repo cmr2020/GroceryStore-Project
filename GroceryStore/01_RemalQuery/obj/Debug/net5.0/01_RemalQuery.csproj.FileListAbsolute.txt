@@ -31,3 +31,9 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\ref\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.pdb
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Domain.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb

@@ -28,6 +28,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "E:\\GroceryStore\\GroceryStore\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\GroceryStore\\GroceryStore\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
+              },
               "E:\\GroceryStore\\GroceryStore\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "E:\\GroceryStore\\GroceryStore\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
@@ -346,6 +349,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "E:\\GroceryStore\\GroceryStore\\01_RemalQuery\\01_RemalQuery.csproj": {
+                "projectPath": "E:\\GroceryStore\\GroceryStore\\01_RemalQuery\\01_RemalQuery.csproj"
+              },
               "E:\\GroceryStore\\GroceryStore\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
                 "projectPath": "E:\\GroceryStore\\GroceryStore\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
               },

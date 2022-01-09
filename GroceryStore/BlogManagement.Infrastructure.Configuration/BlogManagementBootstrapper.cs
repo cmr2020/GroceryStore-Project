@@ -1,4 +1,6 @@
-﻿using BlogManagement.Application;
+﻿using _01_RemalQuery.Contracts.Article;
+using _01_RemalQuery.Query;
+using BlogManagement.Application;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Application.Contracts.ArticleCategory;
 using BlogManagement.Domain.ArticleAgg;
@@ -20,6 +22,7 @@ namespace BlogManagement.Infrastructure.Configuration
             services.AddTransient<IArticleApplication, ArticleApplication>();
             services.AddTransient<IArticleRepository, ArticleRepository>();
 
+            services.AddTransient<IArticleQuery, ArticleQuery>();
 
             services.AddDbContext<BlogContext>(x => x.UseSqlServer(connectionString));
         }
