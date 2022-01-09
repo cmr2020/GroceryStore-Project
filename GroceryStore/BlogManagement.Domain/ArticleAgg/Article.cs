@@ -20,10 +20,9 @@ namespace BlogManagement.Domain.ArticleAgg
         public long CategoryId { get; private set; }
         public ArticleCategory Category { get; private set; }
 
-
         public Article(string title, string shortDescription, string description,
-           string picture, string pictureAlt, string pictureTitle, DateTime publishDate, string slug,
-           string keywords, string metaDescription, string canonicalAddress, long categoryId)
+            string picture, string pictureAlt, string pictureTitle, DateTime publishDate, string slug,
+            string keywords, string metaDescription, string canonicalAddress, long categoryId)
         {
             Title = title;
             ShortDescription = shortDescription;
@@ -59,6 +58,5 @@ namespace BlogManagement.Domain.ArticleAgg
             CanonicalAddress = canonicalAddress;
             CategoryId = categoryId;
         }
-
     }
 }
