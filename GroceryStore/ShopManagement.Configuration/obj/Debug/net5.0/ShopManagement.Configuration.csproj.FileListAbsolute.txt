@@ -4,6 +4,9 @@ E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ref\S
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\0_Framework.dll
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Domain.dll
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
@@ -19,6 +22,9 @@ E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopM
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\0_Framework.pdb
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
@@ -31,13 +37,6 @@ E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopM
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfoInputs.cache
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfo.cs
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CoreCompileInputs.cache
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CopyComplete
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Domain.dll
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Domain.pdb
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb

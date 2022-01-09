@@ -25,7 +25,6 @@ E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\ob
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfo.cs
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
-E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.CopyComplete
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb

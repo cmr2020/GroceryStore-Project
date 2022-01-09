@@ -3,7 +3,6 @@ using _01_RemalQuery.Contracts.Product;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 using System;
@@ -78,8 +77,7 @@ namespace _01_RemalQuery.Query
                 .Select(x => new { x.DiscountRate, x.ProductId, x.EndDate }).ToList();
 
             var product = _context.Products
-                .Include(x => x.Category)
-                .Include(x => x.Comments)
+                .Include(x => x.Category)               
                 .Include(x => x.ProductPictures)              
                 .Select(x => new ProductQueryModel
                 {
@@ -95,8 +93,7 @@ namespace _01_RemalQuery.Query
                     Description = x.Description,
                     Keywords = x.Keywords,
                     MetaDescription = x.MetaDescription,
-                    ShortDescription = x.ShortDescription,
-                    Comments=MapComments(x.Comments),
+                    ShortDescription = x.ShortDescription,                   
                     Pictures = MapProductPictures(x.ProductPictures)
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
@@ -124,18 +121,18 @@ namespace _01_RemalQuery.Query
             return product;
         }
 
-        private static List<CommentQueryModel> MapComments(List<Comment> comments)
-        {
-            return comments
-                .Where(x => !x.IsCanceled)
-                .Where(x => x.IsConfirmed)
-                .Select(x => new CommentQueryModel 
-                {
-                    Id=x.ID,
-                    Message=x.Message,
-                    Name=x.Name
-                }).OrderByDescending(x=> x.Id).ToList();
-        }
+        //private static List<CommentQueryModel> MapComments(List<Comment> comments)
+        //{
+        //    return comments
+        //        .Where(x => !x.IsCanceled)
+        //        .Where(x => x.IsConfirmed)
+        //        .Select(x => new CommentQueryModel 
+        //        {
+        //            Id=x.ID,
+        //            Message=x.Message,
+        //            Name=x.Name
+        //        }).OrderByDescending(x=> x.Id).ToList();
+        //}
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)
         {

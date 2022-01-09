@@ -1,8 +1,9 @@
 
 using _01_RemalQuery.Contracts.Product;
+using CommentManagement.Application.Contracts.Comment;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopManagement.Application.Contracts.Comment;
+
 
 namespace ServiceHost.Pages
 {
