@@ -239,3 +239,4 @@ E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArticles\Default.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Article.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\ArticleCategory.cshtml.g.cs

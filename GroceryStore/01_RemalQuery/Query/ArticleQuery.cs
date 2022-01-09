@@ -20,12 +20,12 @@ namespace _01_RemalQuery.Query
 
         public ArticleQueryModel GetArticleDetails(string slug)
         {
-           return _context.Articles
-              .Include(x => x.Category)
-              .Where(x => x.PublishDate <= DateTime.Now)
-              .Select(x => new ArticleQueryModel
-              {                 
-                  Title = x.Title,
+            var article = _context.Articles
+                .Include(x => x.Category)
+                .Where(x => x.PublishDate <= DateTime.Now)
+                .Select(x => new ArticleQueryModel
+                {
+                    Title = x.Title,
                   CategoryName = x.Category.Name,
                   CategorySlug = x.Category.Slug,
                   Slug = x.Slug,
@@ -39,7 +39,11 @@ namespace _01_RemalQuery.Query
                   PublishDate = x.PublishDate.ToFarsi(),
                   ShortDescription = x.ShortDescription,
               }).FirstOrDefault(x => x.Slug == slug);
-                         
+
+            if (!string.IsNullOrWhiteSpace(article.Keywords))
+                article.KeywordList = article.Keywords.Split(",").ToList();
+
+            return article;
         }
 
         public List<ArticleQueryModel> LatestArticles()

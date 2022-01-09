@@ -1,6 +1,10 @@
-﻿using _01_RemalQuery.Contracts.ArticleCategory;
+﻿using _0_Framework.Application;
+using _01_RemalQuery.Contracts.Article;
+using _01_RemalQuery.Contracts.ArticleCategory;
+using BlogManagement.Domain.ArticleAgg;
 using BlogManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -28,6 +32,42 @@ namespace _01_RemalQuery.Query
                      Slug = x.Slug,
                      ArticlesCount = x.Articles.Count
                  }).ToList();
+        }
+
+        public ArticleCategoryQueryModel GetArticleCategory(string slug)
+        {
+            var articleCategory = _context.ArticleCategories
+                .Include(x => x.Articles)
+                .Select(x => new ArticleCategoryQueryModel
+                {
+                    Slug = x.Slug,
+                    Name = x.Name,
+                    Description = x.Description,
+                    Picture = x.Picture,
+                    PictureAlt = x.PictureAlt,
+                    PictureTitle = x.PictureTitle,
+                    Keywords = x.Keywords,
+                    MetaDescription = x.MetaDescription,
+                    CanonicalAddress = x.CanonicalAddress,             
+                    Articles = MapArticles(x.Articles)
+                }).FirstOrDefault(x => x.Slug == slug);
+          
+
+            return articleCategory;
+        }
+
+        private static List<ArticleQueryModel> MapArticles(List<Article> articles)
+        {
+            return articles.Select(x => new ArticleQueryModel
+            {
+                Slug = x.Slug,
+                ShortDescription = x.ShortDescription,
+                Title = x.Title,
+                Picture = x.Picture,
+                PictureAlt = x.PictureAlt,
+                PictureTitle = x.PictureTitle,
+                PublishDate = x.PublishDate.ToFarsi(),
+            }).ToList();
         }
     }
 }

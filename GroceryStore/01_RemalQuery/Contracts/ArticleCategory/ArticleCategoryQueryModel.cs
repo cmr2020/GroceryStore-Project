@@ -1,4 +1,7 @@
-﻿namespace _01_RemalQuery.Contracts.ArticleCategory
+﻿using _01_RemalQuery.Contracts.Article;
+using System.Collections.Generic;
+
+namespace _01_RemalQuery.Contracts.ArticleCategory
 {
     public class ArticleCategoryQueryModel
     {
@@ -12,6 +15,7 @@
         public string Keywords { get; set; }     
         public string MetaDescription { get; set; }
         public string CanonicalAddress { get; set; }
-        public long ArticlesCount { get; set; }      
+        public long ArticlesCount { get; set; }
+        public List<ArticleQueryModel> Articles { get; set; }
     }
 }
