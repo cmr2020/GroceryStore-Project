@@ -48,10 +48,13 @@ namespace _01_RemalQuery.Query
                     PictureTitle = x.PictureTitle,
                     Keywords = x.Keywords,
                     MetaDescription = x.MetaDescription,
-                    CanonicalAddress = x.CanonicalAddress,             
+                    CanonicalAddress = x.CanonicalAddress,
+                    ArticlesCount = x.Articles.Count,
                     Articles = MapArticles(x.Articles)
                 }).FirstOrDefault(x => x.Slug == slug);
-          
+
+            if (!string.IsNullOrWhiteSpace(articleCategory.Keywords))
+                articleCategory.KeywordList = articleCategory.Keywords.Split(",").ToList();
 
             return articleCategory;
         }

@@ -12,7 +12,8 @@ namespace _01_RemalQuery.Contracts.ArticleCategory
         public string Description { get; set; }
         public int ShowOrder { get; set; }
         public string Slug { get; set; }
-        public string Keywords { get; set; }     
+        public string Keywords { get; set; }
+        public List<string> KeywordList { get; set; }
         public string MetaDescription { get; set; }
         public string CanonicalAddress { get; set; }
         public long ArticlesCount { get; set; }
