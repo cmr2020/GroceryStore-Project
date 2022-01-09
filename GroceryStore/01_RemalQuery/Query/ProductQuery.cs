@@ -1,5 +1,6 @@
 ﻿using _0_Framework.Application;
 using _01_RemalQuery.Contracts.Product;
+using CommnetManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
@@ -16,15 +17,15 @@ namespace _01_RemalQuery.Query
         private readonly ShopContext _context;
         private readonly InventoryContext _inventoryContext;
         private readonly DiscountContext _discountContext;
-      
+        private readonly CommentContext _commentContext;
 
         public ProductQuery(ShopContext context, InventoryContext inventoryContext,
-            DiscountContext discountContext)
+            DiscountContext discountContext, CommentContext commentContext)
         {
             _context = context;
             _discountContext = discountContext;
             _inventoryContext = inventoryContext;
-            
+            _commentContext = commentContext;
         }
         public List<ProductQueryModel> GetLatestArrivals()
         {
@@ -77,8 +78,8 @@ namespace _01_RemalQuery.Query
                 .Select(x => new { x.DiscountRate, x.ProductId, x.EndDate }).ToList();
 
             var product = _context.Products
-                .Include(x => x.Category)               
-                .Include(x => x.ProductPictures)              
+                .Include(x => x.Category)
+                .Include(x => x.ProductPictures)
                 .Select(x => new ProductQueryModel
                 {
                     Id = x.ID,
@@ -93,7 +94,7 @@ namespace _01_RemalQuery.Query
                     Description = x.Description,
                     Keywords = x.Keywords,
                     MetaDescription = x.MetaDescription,
-                    ShortDescription = x.ShortDescription,                   
+                    ShortDescription = x.ShortDescription,
                     Pictures = MapProductPictures(x.ProductPictures)
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
@@ -118,21 +119,22 @@ namespace _01_RemalQuery.Query
                     product.PriceWithDiscount = (price - discountAmount).ToMoney();
                 }
             }
+
+            product.Comments = _commentContext.Comments
+                .Where(x => !x.IsCanceled)
+                .Where(x => x.IsConfirmed)
+                .Where(x => x.Type == CommentType.Product)
+                .Where(x => x.OwnerRecordId == product.Id)
+                .Select(x => new CommentQueryModel
+                {
+                    Id = x.ID,
+                    Message = x.Message,
+                    Name = x.Name,                 
+                }).OrderByDescending(x => x.Id).ToList();
+
             return product;
         }
-
-        //private static List<CommentQueryModel> MapComments(List<Comment> comments)
-        //{
-        //    return comments
-        //        .Where(x => !x.IsCanceled)
-        //        .Where(x => x.IsConfirmed)
-        //        .Select(x => new CommentQueryModel 
-        //        {
-        //            Id=x.ID,
-        //            Message=x.Message,
-        //            Name=x.Name
-        //        }).OrderByDescending(x=> x.Id).ToList();
-        //}
+     
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)
         {
@@ -159,21 +161,21 @@ namespace _01_RemalQuery.Query
                 .Select(product => new ProductQueryModel
                 {
                     Id = product.ID,
-                    Category = product.Category.Name, 
-                    CategorySlug=product.Category.Slug,
+                    Category = product.Category.Name,
+                    CategorySlug = product.Category.Slug,
                     Name = product.Name,
                     Picture = product.Picture,
                     PictureAlt = product.PictureAlt,
-                    PictureTitle = product.PictureTitle,                   
+                    PictureTitle = product.PictureTitle,
                     Slug = product.Slug,
-                    ShortDescription=product.ShortDescription
+                    ShortDescription = product.ShortDescription
                 }).AsNoTracking();
 
             if (!string.IsNullOrWhiteSpace(value))
                 query = query.Where(x => x.Name.Contains(value) || x.ShortDescription.Contains(value));
 
             var products = query.OrderByDescending(x => x.Id).ToList();
-            
+
 
             foreach (var product in products)
             {
@@ -197,7 +199,7 @@ namespace _01_RemalQuery.Query
             return products;
         }
 
-       
+
 
     }
 }
