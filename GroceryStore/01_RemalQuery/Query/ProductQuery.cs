@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using _01_RemalQuery.Contracts.Comment;
 using _01_RemalQuery.Contracts.Product;
 using CommnetManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
@@ -9,6 +10,7 @@ using ShopManagement.Infrastructure.EFCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+
 
 namespace _01_RemalQuery.Query
 {
@@ -27,6 +29,7 @@ namespace _01_RemalQuery.Query
             _inventoryContext = inventoryContext;
             _commentContext = commentContext;
         }
+
         public List<ProductQueryModel> GetLatestArrivals()
         {
             var inventory = _inventoryContext.Inventory.Select(x => new { x.ProductId, x.UnitPrice }).ToList();
@@ -129,7 +132,8 @@ namespace _01_RemalQuery.Query
                 {
                     Id = x.ID,
                     Message = x.Message,
-                    Name = x.Name,                 
+                    Name = x.Name,
+                    CreationDate = x.CreationDate.ToFarsi()
                 }).OrderByDescending(x => x.Id).ToList();
 
             return product;

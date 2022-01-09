@@ -42,4 +42,3 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommnetManagement.In
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj.CopyComplete

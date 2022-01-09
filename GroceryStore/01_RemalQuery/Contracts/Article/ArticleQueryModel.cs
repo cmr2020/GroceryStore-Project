@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using _01_RemalQuery.Contracts.Comment;
+using _01_RemalQuery.Contracts.Product;
+using System.Collections.Generic;
 
 namespace _01_RemalQuery.Contracts.Article
 {
     public class ArticleQueryModel
-    {    
+    {
+        public long Id { get; set; }
         public string Title { get; set; }
         public string ShortDescription { get; set; }
         public string Description { get; set; }
@@ -19,6 +22,6 @@ namespace _01_RemalQuery.Contracts.Article
         public long CategoryId { get; set; }
         public string CategoryName { get; set; }
         public string CategorySlug { get; set; }
-       
+        public List<CommentQueryModel> Comments { get; set; }
     }
 }
