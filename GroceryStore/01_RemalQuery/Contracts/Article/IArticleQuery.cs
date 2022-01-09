@@ -4,6 +4,7 @@ namespace _01_RemalQuery.Contracts.Article
 {
     public interface IArticleQuery
     {
-        List<ArticleQueryModel> LatestArticles();    
+        List<ArticleQueryModel> LatestArticles();
+        ArticleQueryModel GetArticleDetails(string slug);
     }
 }
