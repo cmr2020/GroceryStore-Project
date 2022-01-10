@@ -249,3 +249,14 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrast
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.Views.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CopyComplete
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountManagement.Application.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountManagement.Configuration.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountManagement.Domain.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountManagement.Configuration.pdb
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountManagement.Application.pdb
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.pdb
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
