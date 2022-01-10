@@ -46,4 +46,3 @@ E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\Commn
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Domain.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.pdb
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CopyComplete

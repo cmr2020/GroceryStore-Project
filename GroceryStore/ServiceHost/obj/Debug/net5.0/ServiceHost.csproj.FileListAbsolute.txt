@@ -260,3 +260,6 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountManagement.Appl
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountManagement.Domain.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Account\Create.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Account\Edit.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Account\Index.cshtml.g.cs

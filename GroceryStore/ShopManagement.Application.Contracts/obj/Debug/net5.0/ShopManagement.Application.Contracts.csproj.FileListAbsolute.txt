@@ -12,4 +12,3 @@ E:\GroceryStore\GroceryStore\ShopManagement.Application.Contracts\obj\Debug\net5
 E:\GroceryStore\GroceryStore\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb
-E:\GroceryStore\GroceryStore\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CopyComplete
