@@ -10,9 +10,11 @@ namespace AccountManagement.Application
         private readonly IFileUploader _fileUploader;
         private readonly IAccountRepository _accountRepository;
         private readonly IPasswordHasher _passwordHasher;
+        private readonly IAuthHelper _authHelper;
 
-        public AccountApplication(IAccountRepository accountRepository,IPasswordHasher passwordHasher, IFileUploader fileUploader)
+        public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher, IFileUploader fileUploader, IAuthHelper authHelper)
         {
+            _authHelper = authHelper;
             _accountRepository = accountRepository;
             _passwordHasher = passwordHasher;
             _fileUploader = fileUploader;
@@ -56,6 +58,31 @@ namespace AccountManagement.Application
         public EditAccount GetDetails(long id)
         {
             return _accountRepository.GetDetails(id);
+        }
+
+        public OperationResult Login(Login command)
+        {
+            var operation = new OperationResult();
+            var account = _accountRepository.GetBy(command.Username);
+            if (account == null)
+                return operation.Failed(ApplicationMessages.WrongUserPass);
+
+            var result = _passwordHasher.Check(account.Password, command.Password);
+            if (!result.Verified)
+                return operation.Failed(ApplicationMessages.WrongUserPass);
+
+            var authViewModel = new AuthViewModel(account.ID, account.RoleId, account.Fullname
+               , account.Username);
+
+
+            _authHelper.Signin(authViewModel);
+
+            return operation.Succedded();
+        }
+
+        public void Logout()
+        {
+            _authHelper.SignOut();
         }
 
         public OperationResult Register(RegisterAccount command)
