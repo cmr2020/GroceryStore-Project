@@ -1,4 +1,5 @@
 using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using AccountManagement.Configuration;
 using BlogManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
@@ -12,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopManagement.Configuration;
+using System.Collections.Generic;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 
@@ -51,6 +53,17 @@ namespace ServiceHost
                     o.AccessDeniedPath = new PathString("/AccessDenied");
                 });
 
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminArea",
+                    builder => builder.RequireRole(new List<string> { Roles.Administrator, Roles.ContentUploader }));
+
+                options.AddPolicy("Shop",
+                    builder => builder.RequireRole(new List<string> { Roles.Administrator }));
+
+
+            });
+
             services.AddSingleton
                 (HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 
@@ -58,7 +71,13 @@ namespace ServiceHost
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IAuthHelper, AuthHelper>();
 
-            services.AddRazorPages();
+            services.AddRazorPages()
+               .AddRazorPagesOptions(options =>
+               {
+               options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
+            options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
+        });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
