@@ -18,3 +18,4 @@ E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\In
 E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.pdb
+E:\GroceryStore\GroceryStore\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CopyComplete

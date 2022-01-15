@@ -25,3 +25,4 @@ E:\GroceryStore\GroceryStore\InventoryMangement.Infrastructure.EFCore\obj\Debug\
 E:\GroceryStore\GroceryStore\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryMangement.Infrastructure.EFCore.dll
 E:\GroceryStore\GroceryStore\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.genruntimeconfig.cache
+E:\GroceryStore\GroceryStore\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.csproj.CopyComplete
