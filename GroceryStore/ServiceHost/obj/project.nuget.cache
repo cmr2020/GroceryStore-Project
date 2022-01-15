@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9ntNuDOeLIuadyUrAanx+Rus5n08dvm5h5p5Ny08FISJnDTNKfBuGaCMclaOUZWIoaDNaj3mg5HOjJXZ7abU9Q==",
+  "dgSpecHash": "LpJY5LpFDhRjsh3yqaH01QxS1QH106EktWw1YJI9f5eHqY0Y5Fr0A6/UbY/7fsoDdLlMRhdpjCeB/yuMd5s8uw==",
   "success": true,
   "projectFilePath": "E:\\GroceryStore\\GroceryStore\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
@@ -73,7 +73,7 @@
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\aa\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\aa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

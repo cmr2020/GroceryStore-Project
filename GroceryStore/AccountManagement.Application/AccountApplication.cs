@@ -1,23 +1,28 @@
 ﻿using _0_Framework.Application;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
+using AccountManagement.Domain.RoleAgg;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AccountManagement.Application
 {
     public class AccountApplication : IAccountApplication
     {
         private readonly IFileUploader _fileUploader;
-        private readonly IAccountRepository _accountRepository;
         private readonly IPasswordHasher _passwordHasher;
+        private readonly IAccountRepository _accountRepository;
         private readonly IAuthHelper _authHelper;
+        private readonly IRoleRepository _roleRepository;
 
-        public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher, IFileUploader fileUploader, IAuthHelper authHelper)
+        public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher,
+            IFileUploader fileUploader, IAuthHelper authHelper, IRoleRepository roleRepository)
         {
             _authHelper = authHelper;
-            _accountRepository = accountRepository;
-            _passwordHasher = passwordHasher;
+            _roleRepository = roleRepository;
             _fileUploader = fileUploader;
+            _passwordHasher = passwordHasher;
+            _accountRepository = accountRepository;
         }
 
 
@@ -71,8 +76,13 @@ namespace AccountManagement.Application
             if (!result.Verified)
                 return operation.Failed(ApplicationMessages.WrongUserPass);
 
+            var permissions = _roleRepository.Get(account.RoleId)
+               .Permissions
+               .Select(x => x.Code)
+               .ToList();
+
             var authViewModel = new AuthViewModel(account.ID, account.RoleId, account.Fullname
-               , account.Username);
+                           , account.Username, permissions);
 
 
             _authHelper.Signin(authViewModel);

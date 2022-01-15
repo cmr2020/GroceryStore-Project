@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xwTNaFVU7A59PlFOTyGG28BJy70f1mudxc00mNkbqgzmo8KtV4SGNhkI8FSQgb66ZtXXloXp1MI5iYUyRfCWTA==",
+  "dgSpecHash": "cN4ftSv80T0JrPDEPIi2XrwMShhep6PUnd8luNgdqyoJXnVAY5QWc0bo2sYQgYc5y7HbwvX3NSfwno3h1s7TeQ==",
   "success": true,
   "projectFilePath": "E:\\GroceryStore\\GroceryStore\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\aa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
