@@ -55,12 +55,15 @@ namespace _01_RemalQuery.Query
                 var productInventory = inventory.FirstOrDefault(x => x.ProductId == product.Id);
                 if (productInventory != null)
                 {
+                   
                     var price = productInventory.UnitPrice;
+                    product.Price = price.ToMoney();
+                    product.DoublePrice = price;
                     product.Price = price.ToMoney();
                     var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
                     if (discount != null)
                     {
-                        int discountRate = discount.DiscountRate;
+                        var discountRate = discount.DiscountRate;
                         product.DiscountRate = discountRate;
                         product.HasDiscount = discountRate > 0;
                         var discountAmount = Math.Round((price * discountRate) / 100);
