@@ -7,17 +7,14 @@
         public double UnitPrice { get; set; }
         public string Picture { get; set; }
         public int Count { get; set; }
-        public double TotalItemPrice { get; set; }      
+        public double TotalItemPrice { get; set; }
+        public bool IsInStock { get; set; }
 
         public CartItem()
         {
-            TotalItemPrice = UnitPrice * Count;
+            TotalItemPrice = UnitPrice * Count;         
         }
 
-        //public void CalculateTotalItemPrice()
-        //{
-        //    TotalItemPrice = UnitPrice * Count;
-        //}
-
+       
     }
 }

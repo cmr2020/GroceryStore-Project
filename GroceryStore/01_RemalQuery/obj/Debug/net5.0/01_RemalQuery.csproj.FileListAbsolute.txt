@@ -6,6 +6,9 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\0_Framework.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Domain.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommentManagement.Domain.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Domain.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
@@ -16,12 +19,15 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\ShopManagement.Appli
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\ShopManagement.Domain.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\0_Framework.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
@@ -36,9 +42,4 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\ref\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.pdb
-E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
-E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommentManagement.Domain.dll
-E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.dll
-E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommnetManagement.Infrastructure.EFCore.pdb
-E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
-E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj.CopyComplete

@@ -13,7 +13,7 @@ E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\Discount
 E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.AssemblyInfoInputs.cache
 E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.AssemblyInfo.cs
 E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.CoreCompileInputs.cache
+E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.CopyComplete
 E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.dll
 E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\ref\DiscountManagement.Domain.dll
 E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.pdb
-E:\GroceryStore\GroceryStore\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.CopyComplete

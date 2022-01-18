@@ -39,6 +39,11 @@ namespace ServiceHost
             BlogManagementBootstrapper.Configure(services, connectionString);
             CommentManagementBootstrapper.Configure(services, connectionString);
             AccountManagementBootstrapper.Configure(services, connectionString);
+            services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
+            services.AddSingleton<IPasswordHasher, PasswordHasher>();
+            services.AddTransient<IFileUploader, FileUploader>();
+            services.AddTransient<IAuthHelper, AuthHelper>();
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 options.CheckConsentNeeded = context => true;
@@ -62,28 +67,25 @@ namespace ServiceHost
                     builder => builder.RequireRole(new List<string> { Roles.Administrator }));
 
                 options.AddPolicy("Discount",
-                   builder => builder.RequireRole(new List<string> { Roles.Administrator }));
+                    builder => builder.RequireRole(new List<string> { Roles.Administrator }));
 
                 options.AddPolicy("Account",
-                  builder => builder.RequireRole(new List<string> { Roles.Administrator }));
+                    builder => builder.RequireRole(new List<string> { Roles.Administrator }));
             });
 
-            services.AddSingleton
-                (HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
-
-            services.AddSingleton<IPasswordHasher, PasswordHasher>();
-            services.AddTransient<IFileUploader, FileUploader>();
-            services.AddTransient<IAuthHelper, AuthHelper>();
-
             services.AddRazorPages()
-               .AddMvcOptions(options => options.Filters.Add<SecurityPageFilter>())
-               .AddRazorPagesOptions(options =>
-               {
-                   options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
-                   options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
-                   options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
-                   options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
-               });
+              .AddMvcOptions(options => options.Filters.Add<SecurityPageFilter>())
+              .AddRazorPagesOptions(options =>
+              {
+                  options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
+                  options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
+                  options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
+                  options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
+              });
+
+           
+
+          
 
         }
 
@@ -101,9 +103,13 @@ namespace ServiceHost
                 app.UseHsts();
             }
             app.UseAuthentication();
+
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
+
             app.UseCookiePolicy();
+
             app.UseRouting();
 
             app.UseAuthorization();
