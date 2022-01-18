@@ -1,5 +1,7 @@
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
+using _01_RemalQuery.Contracts;
+using _01_RemalQuery.Query;
 using AccountManagement.Configuration;
 using BlogManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
@@ -43,6 +45,7 @@ namespace ServiceHost
             services.AddSingleton<IPasswordHasher, PasswordHasher>();
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IAuthHelper, AuthHelper>();
+          
 
             services.Configure<CookiePolicyOptions>(options =>
             {
