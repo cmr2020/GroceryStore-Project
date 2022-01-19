@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7IBp5uHgfwl1BYDOYmwOPCi3uAP2+zdOLKstkyFrhMoct3Jujj5bvFfrhho415ULMEkzhvDcYxf9RqNHONSDwQ==",
+  "dgSpecHash": "TI59Yevy57T/YZQ6oj27a2kuFB2S+pOMzg7DJ2hpqnE1taEkSp1U9wb4PoUFv/UhHSlhTCgEaD8kEK7pARTEmQ==",
   "success": true,
   "projectFilePath": "E:\\GroceryStore\\GroceryStore\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\aa\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.0.4\\microsoft.extensions.dependencymodel.2.0.4.nupkg.sha512",
