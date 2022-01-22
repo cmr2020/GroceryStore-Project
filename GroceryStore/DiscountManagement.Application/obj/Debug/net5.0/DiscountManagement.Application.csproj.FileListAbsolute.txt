@@ -18,3 +18,4 @@ E:\GroceryStore\GroceryStore\DiscountManagement.Application\obj\Debug\net5.0\Dis
 E:\GroceryStore\GroceryStore\DiscountManagement.Application\obj\Debug\net5.0\ref\DiscountManagement.Application.dll
 E:\GroceryStore\GroceryStore\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.pdb
 E:\GroceryStore\GroceryStore\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.AssemblyReference.cache
+E:\GroceryStore\GroceryStore\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.CopyComplete

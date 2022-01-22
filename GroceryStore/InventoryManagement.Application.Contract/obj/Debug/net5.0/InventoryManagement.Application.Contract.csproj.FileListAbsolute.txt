@@ -14,3 +14,4 @@ E:\GroceryStore\GroceryStore\InventoryManagement.Application.Contract\obj\Debug\
 E:\GroceryStore\GroceryStore\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Application.Contract\obj\Debug\net5.0\ref\InventoryManagement.Application.Contract.dll
 E:\GroceryStore\GroceryStore\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+E:\GroceryStore\GroceryStore\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.csproj.CopyComplete
