@@ -14,11 +14,13 @@ namespace ServiceHost.Pages
         public const string CookieName = "cart-items";
         private readonly ICartService _cartService;
         private readonly ICartCalculatorService _cartCalculatorService;
+        //public List<CartItem> CartItems;
 
         public CheckoutModel(ICartCalculatorService cartCalculatorService, ICartService cartService)
         {
             _cartCalculatorService = cartCalculatorService;
             _cartService = cartService;
+            //CartItems = new List<CartItem>();
         }
 
         public void OnGet()

@@ -116,15 +116,7 @@ function changeCartItemCount(id, totalId, count) {
     //});
 
 
-    const settings = {
-        "url": "https://localhost:5001/api/inventory",
-        "method": "POST",
-        "timeout": 0,
-        "headers": {
-            "Content-Type": "application/json"
-        },
-        "data": JSON.stringify({ "productId": id, "count": count })
-    };
+   
 
     $.ajax(settings).done(function (data) {
         if (data.isStock == false) {

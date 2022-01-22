@@ -42,4 +42,3 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\ref\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.pdb
-E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj.CopyComplete

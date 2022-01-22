@@ -49,6 +49,7 @@ namespace ServiceHost
             {
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.Lax;
+
             });
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -83,10 +84,6 @@ namespace ServiceHost
                   options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
                   options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
               });
-
-           
-
-          
 
         }
 

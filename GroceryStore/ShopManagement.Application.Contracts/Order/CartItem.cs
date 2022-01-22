@@ -15,13 +15,12 @@
 
         public CartItem()
         {
-            TotalItemPrice = UnitPrice * Count;         
+            TotalItemPrice = UnitPrice * Count;
         }
 
         public void CalculateTotalItemPrice()
         {
             TotalItemPrice = UnitPrice * Count;
         }
-
     }
 }

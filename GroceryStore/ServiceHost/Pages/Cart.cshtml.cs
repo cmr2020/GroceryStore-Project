@@ -7,6 +7,7 @@ using ShopManagement.Application.Contracts.Order;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 
 namespace ServiceHost.Pages
 {
@@ -18,7 +19,6 @@ namespace ServiceHost.Pages
 
         public CartModel(IProductQuery productQuery)
         {
-            CartItems = new List<CartItem>();
             _productQuery = productQuery;
         }
 
@@ -26,11 +26,13 @@ namespace ServiceHost.Pages
         {
             var serializer = new JavaScriptSerializer();
             var value = Request.Cookies[CookieName];
-            var cartItems = serializer.Deserialize<List<CartItem>>(value);
-            foreach (var item in cartItems)
+         
+            CartItems = serializer.Deserialize<List<CartItem>>(value);          
+            foreach (var item in CartItems)
                 item.CalculateTotalItemPrice();
 
-            CartItems = _productQuery.CheckInventoryStatus(cartItems);
+
+            CartItems = _productQuery.CheckInventoryStatus(CartItems);
 
         }
 
@@ -51,13 +53,13 @@ namespace ServiceHost.Pages
         {
             var serializer = new JavaScriptSerializer();
             var value = Request.Cookies[CookieName];
-            var cartItems = serializer.Deserialize<List<CartItem>>(value);
-            foreach (var item in cartItems)
+            CartItems = serializer.Deserialize<List<CartItem>>(value);
+            foreach (var item in CartItems)
             {
                 item.TotalItemPrice = item.UnitPrice * item.Count;
             }
 
-            CartItems = _productQuery.CheckInventoryStatus(cartItems);
+            CartItems = _productQuery.CheckInventoryStatus(CartItems);
 
             //if (CartItems.Any(x => !x.IsInStock))
             //    return RedirectToPage("/Cart");

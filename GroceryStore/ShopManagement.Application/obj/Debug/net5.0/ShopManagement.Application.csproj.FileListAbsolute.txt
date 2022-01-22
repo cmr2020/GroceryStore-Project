@@ -12,7 +12,6 @@ E:\GroceryStore\GroceryStore\ShopManagement.Application\obj\Debug\net5.0\ShopMan
 E:\GroceryStore\GroceryStore\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfoInputs.cache
 E:\GroceryStore\GroceryStore\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfo.cs
 E:\GroceryStore\GroceryStore\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
-E:\GroceryStore\GroceryStore\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CopyComplete
 E:\GroceryStore\GroceryStore\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Application\obj\Debug\net5.0\ref\ShopManagement.Application.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.pdb
