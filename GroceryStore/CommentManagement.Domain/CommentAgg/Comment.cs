@@ -14,7 +14,7 @@ namespace CommentManagement.Domain.CommentAgg
         public long OwnerRecordId { get; private set; }
         public int Type { get; private set; }
         public long ParentId { get; private set; }
-        public Comment Parent { get; private set; }      
+        public Comment Parent { get; private set; }
 
         public Comment(string name, string email, string website, string message, long ownerRecordId, int type, long parentId)
         {
@@ -36,6 +36,5 @@ namespace CommentManagement.Domain.CommentAgg
         {
             IsCanceled = true;
         }
-
     }
 }
