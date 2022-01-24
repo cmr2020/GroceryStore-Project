@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace InventoryMangement.Infrastructure.EFCore.Migrations
 {
-    public partial class InventoryAdded : Migration
+    public partial class AddedInventory : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DiscountManagement.Infrastructure.EFCore.Migrations
 {
     [DbContext(typeof(DiscountContext))]
-    [Migration("20220103210907_ColleagueDiscount")]
-    partial class ColleagueDiscount
+    [Migration("20220124100825_AddedDiscount")]
+    partial class AddedDiscount
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

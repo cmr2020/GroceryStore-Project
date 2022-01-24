@@ -125,18 +125,18 @@ namespace _01_RemalQuery.Query
                 }
             }
 
-            product.Comments = _commentContext.Comments
-                .Where(x => !x.IsCanceled)
-                .Where(x => x.IsConfirmed)
-                .Where(x => x.Type == CommentType.Product)
-                .Where(x => x.OwnerRecordId == product.Id)
-                .Select(x => new CommentQueryModel
-                {
-                    Id = x.ID,
-                    Message = x.Message,
-                    Name = x.Name,
-                    CreationDate = x.CreationDate.ToFarsi()
-                }).OrderByDescending(x => x.Id).ToList();
+            //product.Comments = _commentContext.Comments
+            //    .Where(x => !x.IsCanceled)
+            //    .Where(x => x.IsConfirmed)
+            //    .Where(x => x.Type == CommentType.Product)
+            //    .Where(x => x.OwnerRecordId == product.Id)
+            //    .Select(x => new CommentQueryModel
+            //    {
+            //        Id = x.ID,
+            //        Message = x.Message,
+            //        Name = x.Name,
+            //        CreationDate = x.CreationDate.ToFarsi()
+            //    }).OrderByDescending(x => x.Id).ToList();
 
             return product;
         }
