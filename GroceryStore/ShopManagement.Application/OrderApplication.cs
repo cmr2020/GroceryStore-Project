@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.OrderAgg;
+using ShopManagement.Domain.Services;
 
 namespace ShopManagement.Application
 {
@@ -10,12 +11,14 @@ namespace ShopManagement.Application
         private readonly IAuthHelper _authHelper;
         private readonly IConfiguration _configuration;
         private readonly IOrderRepository _orderRepository;
+        private readonly IShopInventoryAcl _shopInventoryAcl;
 
-        public OrderApplication(IOrderRepository orderRepository, IAuthHelper authHelper, IConfiguration configuration)
+        public OrderApplication(IOrderRepository orderRepository, IAuthHelper authHelper, IConfiguration configuration, IShopInventoryAcl shopInventoryAcl)
         {
             _orderRepository = orderRepository;
             _authHelper = authHelper;
             _configuration = configuration;
+            _shopInventoryAcl = shopInventoryAcl;
         }
 
         public double GetAmountBy(long id)
@@ -31,9 +34,11 @@ namespace ShopManagement.Application
             var issueTrackingNo = CodeGenerator.Generate(symbol);
             order.SetIssueTrackingNo(issueTrackingNo);
 
+            if (!_shopInventoryAcl.ReduceFromInventory(order.Items)) return "";
 
             _orderRepository.SaveChanges();
-            return issueTrackingNo;
+                return issueTrackingNo;                   
+          
         }
 
         public long PlaceOrder(Cart cart)

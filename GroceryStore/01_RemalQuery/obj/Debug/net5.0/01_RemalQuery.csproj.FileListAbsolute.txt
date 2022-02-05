@@ -43,3 +43,9 @@ E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\ref\01_RemalQuery.dll
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.pdb
 E:\GroceryStore\GroceryStore\01_RemalQuery\obj\Debug\net5.0\01_RemalQuery.csproj.CopyComplete
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\AccountManagement.Domain.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.dll
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\AccountManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\01_RemalQuery\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.pdb

@@ -30,3 +30,9 @@ E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\ob
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.genruntimeconfig.cache
 E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.CopyComplete
+E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.dll
+E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.pdb
