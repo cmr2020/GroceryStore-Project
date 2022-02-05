@@ -6,9 +6,8 @@ namespace _0_Framework.Application.ZarinPal
     {
         string Prefix { get; set; }
 
-        PaymentResponse CreatePaymentRequest(string amount, string mobile, string email, string description,
-            long orderId);
+        PaymentResponse CreatePaymentRequest(string amount, string mobile, string email, string description, long orderId);
 
-        VerificationResponse CreateVerificationRequest(string authority, string price);
+        Task<VerificationResponse> CreateVerificationRequest(string authority, string price);
     }
 }
