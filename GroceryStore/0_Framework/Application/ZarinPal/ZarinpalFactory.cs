@@ -48,7 +48,7 @@ namespace _0_Framework.Application.ZarinPal
             return jsonSerializer.Deserialize<PaymentResponse>(response);
         }
 
-        public async Task<VerificationResponse> CreateVerificationRequest(string authority, string amount)
+        public VerificationResponse CreateVerificationRequest(string authority, string amount)
         {
             var client = new RestClient($"https://{Prefix}.zarinpal.com/pg/rest/WebGate/PaymentVerification.json");
             var request = new RestRequest(Method.POST);
@@ -63,9 +63,9 @@ namespace _0_Framework.Application.ZarinPal
                 MerchantID = MerchantId,
                 Authority = authority
             });
-            var response = await client.ExecuteAsync(request);
+            var response =  client.Execute(request);
             var jsonSerializer = new RestSharp.Serialization.Json.JsonSerializer();
-            return  JsonConvert.DeserializeObject<VerificationResponse>(response.Content);
+            return jsonSerializer.Deserialize<VerificationResponse>(response);
         }
     }
 }

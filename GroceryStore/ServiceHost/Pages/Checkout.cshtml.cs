@@ -1,6 +1,7 @@
 ﻿using _0_Framework.Application.ZarinPal;
 using _01_RemalQuery.Contracts;
 using _01_RemalQuery.Contracts.Product;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -14,6 +15,7 @@ using ZarinpalSandbox;
 
 namespace ServiceHost.Pages
 {
+    [Authorize]
     public class CheckoutModel : PageModel
     {
         public Cart Cart;
@@ -27,6 +29,7 @@ namespace ServiceHost.Pages
 
         public CheckoutModel(ICartCalculatorService cartCalculatorService, ICartService cartService, IProductQuery productQuery, IOrderApplication orderApplication, IZarinPalFactory zarinPalFactory)
         {
+            Cart = new Cart();
             _cartCalculatorService = cartCalculatorService;
             _cartService = cartService;
             _productQuery = productQuery;
@@ -70,7 +73,23 @@ namespace ServiceHost.Pages
         public IActionResult OnGetCallBack([FromQuery] string authority, [FromQuery] string status,
             [FromQuery] long oId)
         {
-            return null;
+            var orderAmount = _orderApplication.GetAmountBy(oId);
+            var verificationResponse =
+               _zarinPalFactory.CreateVerificationRequest(authority,
+                   orderAmount.ToString(CultureInfo.InvariantCulture));
+
+            var result = new PaymentResult();
+            if (status == "OK" && verificationResponse.Status >= 100)
+            {
+                var issueTrackingNo = _orderApplication.PaymentSucceeded(oId, verificationResponse.RefID);
+                Response.Cookies.Delete("cart-items");
+                result = result.Succeeded("پرداخت با موفقیت انجام شد.", issueTrackingNo);
+                return RedirectToPage("/PaymentResult", result);
+            }
+
+            result = result.Failed(
+              "پرداخت با موفقیت انجام نشد. درصورت کسر وجه از حساب، مبلغ تا 24 ساعت دیگر به حساب شما بازگردانده خواهد شد.");
+            return RedirectToPage("/PaymentResult", result);
 
         }
 

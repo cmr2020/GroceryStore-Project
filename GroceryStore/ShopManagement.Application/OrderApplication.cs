@@ -18,7 +18,12 @@ namespace ShopManagement.Application
             _configuration = configuration;
         }
 
-        public void PaymentSucceeded(long orderId, long refId)
+        public double GetAmountBy(long id)
+        {
+            return _orderRepository.GetAmountBy(id);
+        }
+
+        public string PaymentSucceeded(long orderId, long refId)
         {
             var order = _orderRepository.Get(orderId);
             order.PaymentSucceeded(refId);
@@ -26,7 +31,9 @@ namespace ShopManagement.Application
             var issueTrackingNo = CodeGenerator.Generate(symbol);
             order.SetIssueTrackingNo(issueTrackingNo);
 
-            _orderRepository.SaveChanges();      
+
+            _orderRepository.SaveChanges();
+            return issueTrackingNo;
         }
 
         public long PlaceOrder(Cart cart)
