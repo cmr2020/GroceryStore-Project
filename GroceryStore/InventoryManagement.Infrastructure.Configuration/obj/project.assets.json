@@ -2666,6 +2666,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "AccountMangement.Infrastructure.EFCore": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "ShopManagement.Domain": "1.0.0"

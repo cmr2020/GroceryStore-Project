@@ -30,3 +30,9 @@ E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\r
 E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.pdb
 E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.genruntimeconfig.cache
 E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.CopyComplete
+E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.dll
+E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb
+E:\GroceryStore\GroceryStore\DiscountManagement.Configuration\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.pdb

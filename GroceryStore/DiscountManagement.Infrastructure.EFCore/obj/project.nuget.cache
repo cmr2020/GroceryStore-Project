@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2HH9X31laspXVxsjv6RUD8fQMjpnNtpjFuLNrwhY+d7SbRhWATl7T7xRWd7oZwBdoQQvcXJEsiOI3q6mrygEEQ==",
+  "dgSpecHash": "ZmhOcDI7pQ6foW9ww3mEGZoqAXb9BjhGqw7BjfuXrn1EBiGFiReCMQ+u1SRgKxnxvAATwZB5fGTVEu5gTrbT6g==",
   "success": true,
   "projectFilePath": "E:\\GroceryStore\\GroceryStore\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [

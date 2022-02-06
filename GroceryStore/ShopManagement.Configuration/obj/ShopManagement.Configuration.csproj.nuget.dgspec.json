@@ -1438,6 +1438,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "E:\\GroceryStore\\GroceryStore\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\GroceryStore\\GroceryStore\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj"
+              },
               "E:\\GroceryStore\\GroceryStore\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
                 "projectPath": "E:\\GroceryStore\\GroceryStore\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
