@@ -30,6 +30,31 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             return 0;
         }
 
+        public List<OrderItemViewModel> GetItems(long orderId)
+        {
+            var products = _context.Products.Select(x => new { x.ID, x.Name }).ToList();
+            var order = _context.Orders.FirstOrDefault(x => x.ID == orderId);
+            if (order == null)
+                return new List<OrderItemViewModel>();
+
+            var items = order.Items.Select(x => new OrderItemViewModel
+            {
+                Id = x.ID,
+                Count = x.Count,
+                DiscountRate = x.DiscountRate,
+                OrderId = x.OrderId,
+                ProductId = x.ProductId,
+                UnitPrice = x.UnitPrice
+            }).ToList();
+
+            foreach (var item in items)
+            {
+                item.Product = products.FirstOrDefault(x => x.ID == item.ProductId)?.Name;
+            }
+
+            return items;
+        }
+
         public List<OrderViewModel> Search(OrderSearchModel searchModel)
         {
             var accounts = _accountContext.Accounts.Select(x => new { x.ID, x.Fullname }).ToList();
