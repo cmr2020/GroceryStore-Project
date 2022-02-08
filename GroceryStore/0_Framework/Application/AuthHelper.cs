@@ -43,6 +43,13 @@ namespace _0_Framework.Application
             return result;
         }
 
+        public string CurrentAccountMobile()
+        {
+            return IsAuthenticated()
+                 ? _contextAccessor.HttpContext.User.Claims.First(x => x.Type == "Mobile")?.Value
+                 : "";
+        }
+
         public string CurrentAccountRole()
         {
             if (IsAuthenticated())
@@ -62,14 +69,14 @@ namespace _0_Framework.Application
 
         public bool IsAuthenticated()
         {
-            
-               return _contextAccessor.HttpContext.User.Identity.IsAuthenticated;
-                //var claims = _contextAccessor.HttpContext.User.Claims.ToList();
-                ////if (claims.Count > 0)
-                ////    return true;
-                ////return false;
-                //return claims.Count > 0;
-            
+
+            return _contextAccessor.HttpContext.User.Identity.IsAuthenticated;
+            //var claims = _contextAccessor.HttpContext.User.Claims.ToList();
+            ////if (claims.Count > 0)
+            ////    return true;
+            ////return false;
+            //return claims.Count > 0;
+
         }
 
         public void Signin(AuthViewModel account)
@@ -82,6 +89,7 @@ namespace _0_Framework.Application
                 new Claim(ClaimTypes.Role, account.RoleId.ToString()),
                 new Claim("Username", account.Username), // Or Use ClaimTypes.NameIdentifier
                 new Claim("permissions", permissions),
+                new Claim("Mobile", account.Mobile)
             };
 
             var claimsIdentity = new ClaimsIdentity(

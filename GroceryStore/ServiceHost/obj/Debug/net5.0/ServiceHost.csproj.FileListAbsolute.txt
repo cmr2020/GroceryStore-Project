@@ -292,3 +292,9 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrast
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.pdb
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Orders\Index.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Orders\Items.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\SmsIrRestful.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.pdb
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\MailKit.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\MimeKit.dll
+E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\crypto.dll
