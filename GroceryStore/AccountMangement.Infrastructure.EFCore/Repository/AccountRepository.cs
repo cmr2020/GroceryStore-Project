@@ -54,6 +54,7 @@ namespace AccountMangement.Infrastructure.EFCore.Repository
                 Role = x.Role.Name,
                 RoleId = x.RoleId,
                 Username = x.Username,
+                Address=x.Address,
                 CreationDate = x.CreationDate.ToFarsi()
             });
 

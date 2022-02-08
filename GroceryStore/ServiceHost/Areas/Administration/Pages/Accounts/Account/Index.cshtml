@@ -68,6 +68,7 @@
                                     <th>نام</th>
                                     <th>نام کاربری</th>
                                     <th>موبایل</th>
+                                    <th>آدرس</th>
                                     <th>نقش</th>
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
@@ -76,27 +77,28 @@
                             <tbody>
                                 @foreach (var item in Model.Accounts)
                                 {
-                                    <tr>
-                                        <td>@item.Id</td>
-                                        <td>
-                                            <img src="~/ProductPictures/@item.ProfilePhoto" style="width: 70px; height: 70px" />
-                                        </td>
-                                        <td>@item.Fullname</td>
-                                        <td>@item.Username</td>
-                                        <td>@item.Mobile</td>
-                                        <td>@item.Role</td>
-                                        <td>@item.CreationDate</td>
-                                        <td>
-                                            <a class="btn btn-warning waves-effect waves-light m-b-5"
-                                               href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
-                                                <i class="fa fa-edit"></i> ویرایش
-                                            </a>
-                                            <a class="btn btn-primary waves-effect waves-light m-b-5"
-                                               href="#showmodal=@Url.Page("./Index", "ChangePassword", new { id = item.Id})">
-                                                <i class="fa fa-key"></i> تغییر رمز
-                                            </a>
-                                        </td>
-                                    </tr>
+                                <tr>
+                                    <td>@item.Id</td>
+                                    <td>
+                                        <img src="~/ProductPictures/@item.ProfilePhoto" style="width: 70px; height: 70px" />
+                                    </td>
+                                    <td>@item.Fullname</td>
+                                    <td>@item.Username</td>
+                                    <td>@item.Mobile</td>
+                                    <td>@item.Address</td>
+                                    <td>@item.Role</td>
+                                    <td>@item.CreationDate</td>
+                                    <td>
+                                        <a class="btn btn-warning waves-effect waves-light m-b-5"
+                                           href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
+                                            <i class="fa fa-edit"></i> ویرایش
+                                        </a>
+                                        <a class="btn btn-primary waves-effect waves-light m-b-5"
+                                           href="#showmodal=@Url.Page("./Index", "ChangePassword", new { id = item.Id})">
+                                            <i class="fa fa-key"></i> تغییر رمز
+                                        </a>
+                                    </td>
+                                </tr>
                                 }
                             </tbody>
                         </table>
