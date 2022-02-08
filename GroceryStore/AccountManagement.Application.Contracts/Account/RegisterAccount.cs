@@ -20,6 +20,9 @@ namespace AccountManagement.Application.Contracts.Account
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Mobile { get; set; }
 
+        [Required(ErrorMessage = ValidationMessages.IsRequired)]
+        public string Address { get;  set; }
+
         public long RoleId { get; set; }
 
         public IFormFile ProfilePhoto { get; set; }

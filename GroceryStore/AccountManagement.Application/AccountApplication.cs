@@ -55,7 +55,7 @@ namespace AccountManagement.Application
 
             var path = $"profilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
-            account.Edit(command.Fullname, command.Username, command.Mobile, command.RoleId, picturePath);
+            account.Edit(command.Fullname, command.Username, command.Mobile,command.Address, command.RoleId, picturePath);
             _accountRepository.SaveChanges();
             return operation.Succedded();
         }
@@ -120,7 +120,7 @@ namespace AccountManagement.Application
             var password = _passwordHasher.Hash(command.Password);
             var path = $"profilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
-            var account = new Account(command.Fullname, command.Username, password, command.Mobile, command.RoleId,
+            var account = new Account(command.Fullname, command.Username, password, command.Mobile,command.Address ,command.RoleId,
                 picturePath);
             _accountRepository.Create(account);
             _accountRepository.SaveChanges();
