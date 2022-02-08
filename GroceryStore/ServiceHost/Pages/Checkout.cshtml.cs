@@ -63,7 +63,7 @@ namespace ServiceHost.Pages
             {
                 var paymentResponse = _zarinPalFactory.CreatePaymentRequest(
                                    cart.PayAmount.ToString(CultureInfo.InvariantCulture), "09121111111", "a@gmail.com",
-                                   "خرید از درگاه لوازم خانگی و دکوری", orderId);
+                                   "خرید از درگاه فروشگاه مواد غذایی ری مال", orderId);
 
 
                 return Redirect(
