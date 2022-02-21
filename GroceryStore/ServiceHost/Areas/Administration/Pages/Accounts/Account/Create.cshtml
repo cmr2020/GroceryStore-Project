@@ -38,6 +38,13 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group">
+                    <label asp-for="Address" class="control-label">آدرس</label>
+                    <input type="text" class="form-control" asp-for="Address">
+                    <span asp-validation-for="Address" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
                     <label asp-for="Password" class="control-label">کلمه رمز</label>
                     <input type="text" class="form-control" asp-for="Password">
                     <span asp-validation-for="Password" class="error"></span>
