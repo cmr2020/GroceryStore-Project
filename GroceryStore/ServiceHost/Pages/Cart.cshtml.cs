@@ -1,4 +1,4 @@
-using _01_RemalQuery.Contracts.Product;
+﻿using _01_RemalQuery.Contracts.Product;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -24,14 +24,16 @@ namespace ServiceHost.Pages
 
         public void OnGet()
         {
-            var serializer = new JavaScriptSerializer();
-            var value = Request.Cookies[CookieName];
-            var cartItems = serializer.Deserialize<List<CartItem>>(value);
-            foreach (var item in cartItems)
-                item.CalculateTotalItemPrice();
+          
+                var serializer = new JavaScriptSerializer();
+                var value = Request.Cookies[CookieName];
+                var cartItems = serializer.Deserialize<List<CartItem>>(value);
+                foreach (var item in cartItems)
+                    item.CalculateTotalItemPrice();
 
-            CartItems = _productQuery.CheckInventoryStatus(cartItems);
 
+                CartItems = _productQuery.CheckInventoryStatus(cartItems);
+           
         }
 
         public IActionResult OnGetRemoveFromCart(long id)

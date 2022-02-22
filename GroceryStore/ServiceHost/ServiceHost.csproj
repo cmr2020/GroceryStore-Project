@@ -197,6 +197,10 @@
     <None Include="wwwroot\AdminTheme\fonts\IranianSans.svg" />
     <None Include="wwwroot\AdminTheme\fonts\IranianSans.woff2" />
     <None Include="wwwroot\AdminTheme\fonts\Material-Design-Iconic-Font.svg" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
     <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.svg" />
     <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.woff2" />
     <None Include="wwwroot\Theme\assets\fonts\ionicons28b5.svg" />

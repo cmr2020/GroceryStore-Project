@@ -8,6 +8,7 @@ namespace AccountManagement.Application.Contracts.Account
 {
     public class RegisterAccount
     {
+     
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Fullname { get; set; }
 
@@ -22,6 +23,9 @@ namespace AccountManagement.Application.Contracts.Account
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Address { get;  set; }
+
+        [Required(ErrorMessage = ValidationMessages.IsRequired)]
+        public string Code { get; set; }
 
         public long RoleId { get; set; }
 
