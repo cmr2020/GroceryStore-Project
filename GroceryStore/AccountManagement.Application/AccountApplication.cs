@@ -55,7 +55,7 @@ namespace AccountManagement.Application
 
             var path = $"profilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
-            account.Edit(command.Fullname, command.Username, command.Mobile,command.Address,  command.RoleId, picturePath);
+            account.Edit(command.Fullname, command.Username, command.Mobile,command.Address, command.Code,  command.RoleId, picturePath);
             _accountRepository.SaveChanges();
             return operation.Succedded();
         }

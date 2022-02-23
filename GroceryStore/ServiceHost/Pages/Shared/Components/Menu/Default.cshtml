@@ -43,7 +43,11 @@
                                         }
                                     </ul>
                                 </li>
-                             
+
+                                <li>
+                                    <a href="/contact">تماس با ما</a>
+                                </li>
+
                                 @if (AuthHelper.IsAuthenticated())
                                 {
                                     <li>
@@ -70,7 +74,7 @@
                             <li>
                                 <div class="header-cart-icon">
                                     <a href="#" id="minicart-trigger">
-                                        <i class="ion-bag"></i>
+                                        <i class="fa fa-shopping-cart"></i>
                                         <span class="counter" id="cart_items_count">0</span>
                                     </a>
                                     <div class="mini-cart" id="mini-cart">
@@ -131,7 +135,7 @@
                                         <li>
                                             <div class="header-cart-icon">
                                                 <a asp-page="/Cart">
-                                                    <i class="ion-bag"></i>
+                                                    <i class="fa fa-shopping-cart"></i>
                                                     <span class="counter"></span>
                                                 </a>
                                             </div>

@@ -1,5 +1,7 @@
 ﻿using _0_Framework.Domain;
+using AccountManagement.Domain.Contacts;
 using AccountManagement.Domain.RoleAgg;
+using System.Collections.Generic;
 
 namespace AccountManagement.Domain.AccountAgg
 {
@@ -9,14 +11,15 @@ namespace AccountManagement.Domain.AccountAgg
         public string Username { get; private set; }
         public string Password { get; private set; }
         public string Mobile { get; private set; }
-        public string Address { get; private set; }       
-        public string Code { get;private set; }
+        public string Address { get; private set; }
+        public string Code { get; private set; }
         public long RoleId { get; private set; }
         public Role Role { get; private set; }
         public string ProfilePhoto { get; private set; }
+       
 
         public Account(string fullname, string username, string password, string mobile,string address,
-          string code, long roleId, string profilePhoto)
+        string code, long roleId, string profilePhoto)
         {
             Fullname = fullname;
             Username = username;
@@ -33,12 +36,13 @@ namespace AccountManagement.Domain.AccountAgg
         }
 
         public void Edit(string fullname, string username, string mobile,string address,
-          long roleId, string profilePhoto)
+        string code, long roleId, string profilePhoto)
         {
             Fullname = fullname;
             Username = username;
             Mobile = mobile;
-            Address = address;         
+            Address = address;
+            Code = code;
             RoleId = roleId;
 
             if (!string.IsNullOrWhiteSpace(profilePhoto))

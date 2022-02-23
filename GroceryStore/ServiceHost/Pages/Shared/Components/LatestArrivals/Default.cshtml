@@ -37,8 +37,8 @@
                         @foreach (var product in Model)
                         {
                             <div class="col">
-                                <div class="single-grid-product">
-                                    <div class="single-grid-product__image">
+                                <div class="single-grid-product card rounded">
+                                    <div class="single-grid-product__image ">
                                         <div class="single-grid-product__label">
                                             @if (product.HasDiscount)
                                             {
@@ -50,8 +50,8 @@
                                             <img src="~/ProductPictures/@product.Picture" class="img-fluid" alt="@product.PictureAlt" title="@product.PictureTitle">
                                         </a>
                                     </div>
-                                    <div class="single-grid-product__content">
-                                        <div class="single-grid-product__category-rating">
+                                    <div class="single-grid-product__content card-footer">
+                                        <div class="single-grid-product__category-rating card-body">
                                             <span class="category"><a asp-page="/ProductCategory" >@product.Category</a></span>
                                             <span class="rating">
                                                 <i class="ion-android-star active"></i>

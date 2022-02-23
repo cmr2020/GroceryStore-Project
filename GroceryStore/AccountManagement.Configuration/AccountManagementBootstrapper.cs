@@ -2,6 +2,7 @@
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Application.Contracts.Role;
 using AccountManagement.Domain.AccountAgg;
+using AccountManagement.Domain.Contacts;
 using AccountManagement.Domain.RoleAgg;
 using AccountMangement.Infrastructure.EFCore;
 using AccountMangement.Infrastructure.EFCore.Repository;
@@ -19,6 +20,8 @@ namespace AccountManagement.Configuration
 
             services.AddTransient<IRoleApplication, RoleApplication>();
             services.AddTransient<IRoleRepository, RoleRepository>();
+
+            services.AddTransient<IContactUsRepository, ContactUsRepository>();
 
             services.AddDbContext<AccountContext>(x => x.UseSqlServer(connectionString));
         }
