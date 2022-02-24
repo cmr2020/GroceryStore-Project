@@ -46,7 +46,6 @@ E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopM
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CopyComplete
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll

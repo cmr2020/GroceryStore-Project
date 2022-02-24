@@ -212,6 +212,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\ContactUs\" />
     <Folder Include="wwwroot\ProductPictures\Sliders\" />
   </ItemGroup>
 

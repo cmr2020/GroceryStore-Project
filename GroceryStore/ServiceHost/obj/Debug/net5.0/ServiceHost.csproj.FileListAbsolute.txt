@@ -299,6 +299,8 @@ E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\MailKit.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\MimeKit.dll
 E:\GroceryStore\GroceryStore\ServiceHost\bin\Debug\net5.0\crypto.dll
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
-E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Views\Home\ContactUs.cshtml.g.cs
-E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Views\Shared\_DefaultLayout.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactUs\Index.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
