@@ -35,7 +35,7 @@ namespace _01_RemalQuery.Query
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Slug = x.Slug
-            }).AsNoTracking().ToList();
+            }).AsNoTracking().OrderByDescending(x => x.Id).Take(20).ToList();
         }
 
         public List<ProductCategoryQueryModel> GetProductCategoriesWithProducts()
