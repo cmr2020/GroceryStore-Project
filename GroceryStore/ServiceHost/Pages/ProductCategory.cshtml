@@ -71,7 +71,7 @@
                                         @foreach (var product in Model.ProductCategory.Products)
                                         {
                                             <div class="col-12 col-lg-4 col-md-4 col-sm-6">
-                                                <div class="single-grid-product grid-view-product">
+                                                <div class="single-grid-product grid-view-product card">
                                                     <div class="single-grid-product__image">
                                                         
                                                         @if (product.HasDiscount)
@@ -81,12 +81,12 @@
                                                             </div>
                                                         }
                                                         <a asp-page="/Product" asp-route-id="@product.Slug">
-                                                            <img src="~/ProductPictures/@product.Picture" class="img-fluid"
+                                                            <img src="~/ProductPictures/@product.Picture" class="img-fluid card-img"
                                                                  alt="@product.PictureAlt" title="@product.PictureTitle">
                                                         </a>
                                                     </div>
-                                                    <div class="single-grid-product__content">
-                                                        <div class="single-grid-product__category-rating">
+                                                    <div class="single-grid-product__content ">
+                                                        <div class="single-grid-product__category-rating card-footer"style="background-color:white!important";>
                                                             <span class="category">
                                                                 <a asp-page="/ProductCategory" asp-route-id="@Model.ProductCategory.Slug">@Model.ProductCategory.Name</a>
                                                             </span>
@@ -99,20 +99,22 @@
                                                             </span>
                                                         </div>
 
-                                                        <h2 class="single-grid-product__title">
-                                                            <a asp-page="/Product" asp-route-id="@product.Slug">@product.Name</a>
-                                                        </h2>
-                                                        <p class="single-grid-product__price">
-                                                            @if (product.HasDiscount)
-                                                            {
-                                                                <span class="discounted-price">@product.PriceWithDiscount تومان</span>
-                                                                <span class="main-price discounted">@product.Price تومان</span>
-                                                            }
-                                                            else
-                                                            {
-                                                                <span class="main-price">@product.Price تومان</span>
-                                                            }
-                                                        </p>
+                                                        <div class=" card-body" style="background-color:rgba(0, 0, 0, .03)!important";>
+                                                            <h2 class="single-grid-product__title">
+                                                                <a asp-page="/Product" asp-route-id="@product.Slug">@product.Name</a>
+                                                            </h2>
+                                                            <p class="single-grid-product__price ">
+                                                                @if (product.HasDiscount)
+                                                                {
+                                                                    <span class="discounted-price">@product.PriceWithDiscount تومان</span>
+                                                                    <span class="main-price discounted">@product.Price تومان</span>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <span class="main-price">@product.Price تومان</span>
+                                                                }
+                                                            </p>
+                                                        </div>
                                                         @if (product.HasDiscount)
                                                         {
                                                             <div class="product-countdown" data-countdown="@product.DiscountExpireDate"></div>
