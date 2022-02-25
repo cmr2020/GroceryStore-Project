@@ -1,0 +1,20 @@
+textarea{
+    resize: none!important;
+}
+.orange{
+    background-color: orange;
+}
+.circle{
+    border-radius: 18px!important;
+}
+.color{
+    background-color: rgba(255, 239, 185, 0.459)!important;
+}
+.padding{
+ padding-top: 60px;
+}
+body{
+background: linear-gradient(to right,rgb(60, 167, 255),rgb(60, 167, 255),rgb(60, 167, 255),rgb(60, 167, 255),rgb(60, 167, 255),rgb(255, 255, 255));
+background-size: cover;
+
+}

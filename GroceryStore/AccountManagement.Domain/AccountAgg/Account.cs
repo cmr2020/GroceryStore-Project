@@ -2,11 +2,12 @@
 using AccountManagement.Domain.Contacts;
 using AccountManagement.Domain.RoleAgg;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace AccountManagement.Domain.AccountAgg
 {
     public class Account : EntityBase
-    {
+    {      
         public string Fullname { get; private set; }
         public string Username { get; private set; }
         public string Password { get; private set; }
