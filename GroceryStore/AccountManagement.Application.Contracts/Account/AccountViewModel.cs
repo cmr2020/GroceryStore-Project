@@ -7,6 +7,7 @@
         public string Username { get; set; }
         public string Mobile { get; set; }
         public string Address { get; set; }
+        public string Code { get; set; }
         public long RoleId { get; set; }
         public string Role { get; set; }
         public string ProfilePhoto { get; set; }
