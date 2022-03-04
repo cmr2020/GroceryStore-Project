@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ServiceHost.Pages
 {
+    [ValidateAntiForgeryToken]
     public class AccountModel : PageModel
     {
         [TempData]
@@ -23,6 +24,7 @@ namespace ServiceHost.Pages
         {
         }
 
+      
         public IActionResult OnPostLogin(Login command)
         {
             var result = _accountApplication.Login(command);
@@ -39,6 +41,7 @@ namespace ServiceHost.Pages
             return RedirectToPage("/Index");
         }
 
+     
         public IActionResult OnPostRegister(RegisterAccount command)
         {          
         

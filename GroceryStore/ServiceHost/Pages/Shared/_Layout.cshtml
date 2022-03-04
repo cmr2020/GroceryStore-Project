@@ -13,8 +13,34 @@
         <title>فروشگاه ری مال</title>
     }
 
-    <meta name="keywords" content="@ViewData["keywords"]" />
-    <meta name="description" content="@ViewData["metaDescription"]" />
+    @if (ViewData["metaDescription"] != null)
+    {
+        <meta name="description" content="@ViewData["metaDescription"]" />
+    }
+    else
+    {
+        <meta name="description" content=" سایت فروشگاهی برنج ری مال ارسال به سراسر کشور  + تحویل درب منزل" />
+    }
+
+    @if (ViewData["keywords"] != null)
+    {
+        <meta name="keywords" content="@ViewData["keywords"]" />
+    }
+    else
+    {
+        <meta name="keywords" content="فروشگاه ری مال , ری مال ,فروشگاه برنج ری مال,فروشگاه برنج ممتاز ری مال" />
+
+    }
+
+    <link rel="canonical" href="https://remal.ir/" />
+    <meta name="robots" content="index" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="فروشگاه برنج ری مال " />
+    <meta property="og:description" content="سایت فروشگاهی برنج ری مال ارسال به سراسر کشور  + تحویل درب منزل" />
+    <meta property="og:url" content="https://remal.ir/" />
+    <meta property="og:site_name" content="فروشگاه برنج ری مال" />
+    <meta name="google-site-verification" content="iWO2tUOeJA1D6Hy4GO29FvN-A5raakZGL7st4XNrKXE" />
+
     <link rel="shortcut icon" type="image/x-icon" href="/Icon/icons8-shop-30.png">
     <!-- Vendor CSS -->
     <link href="/Theme/assets/css/vendors.css" rel="stylesheet">
@@ -65,7 +91,7 @@
     <script src="/Theme/assets/js/plugins.js"></script>
     <script src="/Theme/assets/js/custom.js"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 
     <script>
         $(document).ready(function () {
