@@ -56,4 +56,3 @@ E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\Accou
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.dll
 E:\GroceryStore\GroceryStore\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.pdb
-E:\GroceryStore\GroceryStore\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CopyComplete

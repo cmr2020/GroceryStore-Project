@@ -1,0 +1,63 @@
+﻿@page
+@model ServiceHost.Pages.ContactModel
+@{
+    ViewData["Title"] = "تماس با ما";
+}
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/ContactUs/style.css">
+        <link rel="stylesheet" href="~/ContactUs/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="~/ContactUs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="~/ContactUs//font-awesome-4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <div class="container card " dir="ltr">
+        <form method="post" asp-controller="Home" asp-action="ContactUs" class="form-group w-100   justify-content-center text-center  bg-white circle p-3 ">
+            <div class=" cform-group pb-3">
+                <h1>تماس با ما</h1>
+                <h5>پیشنهاد و انتقادات خود را از طریق فرم زیر ارسال نمایید</h5>
+            </div>
+            <div class="row   ">
+
+                <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+
+                    <img src="/ContactUs/img/download (1).png" class="img-fluid pb-3 " alt="">
+                </div>
+                <div class="col-12 col-lg-6 ">
+                    <div class=" input-group mb-3  ">
+
+                        <input type="text" name="fullname" class=" form-control text-right  color"  placeholder="نام ونام خانوادگی">
+                        <div class=" input-group-append ">
+                            <span class=" input-group-text color"><i class="fa fa-id-card"></i></span>
+                        </div>
+                    </div>
+                    <div class=" input-group mb-3 ">
+
+                        <input type="email" name="email" class=" form-control text-right color"  placeholder=" ایمیل">
+                        <div class=" input-group-append ">
+                            <span class=" input-group-text color"><i class="fa fa-envelope"></i></span>
+                        </div>
+                    </div>
+                    <div class=" input-group mb-3 ">
+
+                        <input type="text" name="subject" class=" form-control text-right color"  placeholder="عنوان ">
+                        <div class=" input-group-append ">
+                            <span class=" input-group-text color"><i class="fa fa-user-circle-o"></i></span>
+                        </div>
+                    </div>
+                    <div class=" input-group mb-3 ">
+                        <textarea name="text" id="" cols="30" rows="10" class="form-control text-right color"  placeholder="متن"></textarea>
+
+
+                    </div>
+                    <div class="form-group   ">
+                        <input type="submit" class="btn orange w-50 text-white circle" value="ثبت">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+

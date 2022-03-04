@@ -13,8 +13,3 @@ textarea{
 .padding{
  padding-top: 60px;
 }
-body{
-background: linear-gradient(to right,rgb(60, 167, 255),rgb(60, 167, 255),rgb(60, 167, 255),rgb(60, 167, 255),rgb(60, 167, 255),rgb(255, 255, 255));
-background-size: cover;
-
-}

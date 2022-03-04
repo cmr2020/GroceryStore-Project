@@ -25,4 +25,3 @@ E:\GroceryStore\GroceryStore\ShopManagement.Infrastructure.EFCore\bin\Debug\net5
 E:\GroceryStore\GroceryStore\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountMangement.Infrastructure.EFCore.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
 E:\GroceryStore\GroceryStore\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.pdb
-E:\GroceryStore\GroceryStore\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csproj.CopyComplete
