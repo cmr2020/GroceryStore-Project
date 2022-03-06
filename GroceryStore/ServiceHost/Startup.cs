@@ -115,6 +115,10 @@ namespace ServiceHost
 
             app.UseAuthorization();
 
+            app.UseStatusCodePagesWithRedirects("/Error404");
+
+
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();

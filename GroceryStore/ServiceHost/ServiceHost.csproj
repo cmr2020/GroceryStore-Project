@@ -233,6 +233,14 @@
     <None Include="wwwroot\ContactUs\font-awesome-4.7.0\scss\_screen-reader.scss" />
     <None Include="wwwroot\ContactUs\font-awesome-4.7.0\scss\_stacked.scss" />
     <None Include="wwwroot\ContactUs\font-awesome-4.7.0\scss\_variables.scss" />
+    <None Include="wwwroot\error404\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\error404\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\error404\fonts\Vazir.woff2" />
+    <None Include="wwwroot\error404\js\bootstrap.min.js" />
+    <None Include="wwwroot\error404\js\jquery-3.1.1.min.js" />
+    <None Include="wwwroot\error404\js\jquery-ui.min.js" />
+    <None Include="wwwroot\error404\js\modernizr.min.js" />
+    <None Include="wwwroot\error404\js\scripts.js" />
     <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
     <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
     <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
@@ -250,6 +258,7 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="wwwroot\error404\pics\" />
     <Folder Include="wwwroot\ProductPictures\Sliders\" />
   </ItemGroup>
 

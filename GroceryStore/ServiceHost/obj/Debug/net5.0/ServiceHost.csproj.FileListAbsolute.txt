@@ -249,7 +249,6 @@ E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Account.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Article.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\ArticleCategory.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Cart.cshtml.g.cs
-E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Product.cshtml.g.cs
@@ -303,3 +302,5 @@ E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\View
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Contact.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Pages\Error404.cshtml.g.cs
+E:\GroceryStore\GroceryStore\ServiceHost\obj\Debug\net5.0\Razor\Views\Home\ContactUs.cshtml.g.cs
